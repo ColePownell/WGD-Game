@@ -63,7 +63,41 @@
         width: 2000px;
         height: 900px;
     }
-
+    
+    #PLAYER-HP {
+        border: 2px solid white;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    #OPP-HP {
+        border: 2px solid white;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    #PLAYER-NAME {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        width: 100px
+    }
+    
+    #OPP-NAME {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        width: 100px
+    }
     
     #Title {
       
@@ -88,7 +122,7 @@
         grid-template-areas: 
         '1'
         '2'
-        '3' 
+        '3'
         '4'
         ;
     }
